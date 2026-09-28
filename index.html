@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onestop Hydration | Mobile IV Therapy in the Twin Cities</title>
+<meta name="description" content="Mobile IV hydration and vitamin therapy delivered to your home or office by licensed Minnesota RNs. Call or text 651-236-7759.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d2b33;--water:#17707f;--deep:#0a4a56;--mist:#e6f2f3;--paper:#fbfdfd;--line:#b9d6da;--sun:#f0b545;--muted:#48626a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font:400 17px/1.6 Figtree,system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0 0 .5em}
+h1{font-size:clamp(2.2rem,6vw,3.8rem);font-weight:700}
+h2{font-size:clamp(1.7rem,4vw,2.4rem);font-weight:700}
+h3{font-size:1.25rem;font-weight:500}
+a{color:var(--deep)}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+header{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font:700 1.15rem Fraunces,serif;color:var(--ink);text-decoration:none}
+.brand img{height:38px;width:auto}
+nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+nav a{text-decoration:none;font-weight:500}
+.btn{display:inline-block;background:var(--deep);color:#fff;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700}
+.btn:hover{background:var(--ink)}
+.btn.alt{background:transparent;color:var(--deep);border:2px solid var(--deep)}
+.btn.alt:hover{background:var(--deep);color:#fff}
+.hero{background:var(--deep);color:#fff;padding:80px 0 72px}
+.hero .hmong{color:var(--sun);font-weight:700;margin:0 0 12px}
+.hero p{max-width:60ch;color:#d5eaed}
+.hero .btn{background:var(--sun);color:var(--ink)}
+.hero .btn.alt{background:transparent;color:#fff;border-color:#fff}
+.hero .btn.alt:hover{background:#fff;color:var(--deep)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.steps{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));counter-reset:s}
+.steps li{counter-increment:s;border-top:3px solid var(--water);padding-top:12px}
+.steps li::before{content:counter(s);font:700 1.6rem Fraunces,serif;color:var(--water)}
+.steps h3{margin:.2em 0}
+.steps p{margin:0;font-size:.95rem;color:var(--muted)}
+.tint{background:var(--mist)}
+.menu{margin:28px 0 0}
+.item{padding:22px 0;border-bottom:1px solid var(--line)}
+.item:first-child{border-top:1px solid var(--line)}
+.item .top{display:flex;align-items:baseline;gap:10px}
+.item .top h3{margin:0}
+.item .top .dots{flex:1;border-bottom:2px dotted var(--water);transform:translateY(-4px);min-width:20px}
+.price{font:700 1.3rem Fraunces,serif;white-space:nowrap}
+.item p{margin:6px 0 0;color:var(--muted);max-width:68ch}
+.item ul{margin:8px 0 0;padding-left:20px;columns:2;column-gap:32px}
+.item li{break-inside:avoid}
+.small .item{padding:14px 0}
+.small .price{font-size:1.1rem}
+.note{margin-top:20px;font-size:.95rem;color:var(--muted)}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--water)}
+details[open] summary::after{content:"\2212"}
+details p{margin:10px 0 0;color:var(--muted)}
+.about{display:grid;gap:32px;grid-template-columns:1fr}
+.about img{width:100%;max-width:280px;border-radius:12px}
+.about .photo:empty{display:none}
+@media(min-width:720px){.about.has-photo{grid-template-columns:280px 1fr}}
+footer{background:var(--ink);color:#c9dde0;padding:48px 0}
+footer h2{color:#fff;font-size:1.6rem}
+footer a{color:#fff}
+footer .small{font-size:.9rem;margin-top:24px;color:#8fb0b5}
+@media(max-width:560px){.item ul{columns:1}nav{gap:12px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="images/logo.png" alt="" onerror="this.remove()">Onestop Hydration</a>
+    <nav aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#packages">Packages</a>
+      <a href="#faq">FAQ</a>
+      <a href="#about">About</a>
+      <a class="btn" href="sms:+16512367759">Call/Text to Book</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="wrap">
+    <p class="hmong">Nyob zoo &amp; zoo siab txais tos</p>
+    <h1>IV hydration that comes to you.</h1>
+    <p>Onestop Hydration brings the clinic to your home, office, or adult daycare. Licensed Minnesota registered nurses use quality vitamins and nutrients to give you a safe, comfortable wellness session, from hangover recovery to beauty and migraine relief.</p>
+    <div class="actions">
+      <a class="btn" href="sms:+16512367759">Text 651-236-7759</a>
+      <a class="btn alt" href="tel:+16512367759">Call now</a>
+      <a class="btn alt" href="https://squareup.com/gift/MLMQC2RJH5N5H/order">Buy a gift card</a>
+    </div>
+  </div>
+</div>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How IV hydration at home works</h2>
+    <p>Serving the Twin Cities. Appointments depend on your location and nurse availability.</p>
+    <ol class="steps">
+      <li><h3>Book</h3><p>Call or text 651-236-7759 to request an appointment.</p></li>
+      <li><h3>Health review</h3><p>Our staff reviews your medical history to make sure IV treatment is safe for you and tailors your package.</p></li>
+      <li><h3>Treatment</h3><p>A licensed, insured Minnesota RN visits you. Plan on about 1.5 to 2.5 hours.</p></li>
+      <li><h3>Follow-up</h3><p>Your nurse checks in afterward to make sure you feel well.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="packages" class="tint">
+  <div class="wrap">
+    <h2>Packages and prices</h2>
+    <div class="menu">
+      <div class="item"><div class="top"><h3>Mayer's Cocktail</h3><span class="dots"></span><span class="price">$220</span></div>
+        <p>A blend of vitamins and minerals for overall wellness. Especially helpful with chronic illness, lingering ailments, and cold and flu symptoms. Our go-to for overall health.</p>
+        <ul><li>1 liter IV fluids</li><li>B12 injection</li><li>Glutathione</li><li>Choice of 2 add-ins or extra doses: Vitamin C, Magnesium, or B-Complex</li></ul></div>
+
+      <div class="item"><div class="top"><h3>Hangover Relief</h3><span class="dots"></span><span class="price">$250</span></div>
+        <p>Great night, rough morning? Rehydrate and replenish. Added pain relief and anti-nausea medication ease headache and nausea, and may help with GI symptoms.</p>
+        <ul><li>1 liter IV fluids</li><li>B-Complex</li><li>Glutathione</li><li>NSAID pain medication</li><li>Anti-nausea medication</li></ul></div>
+
+      <div class="item"><div class="top"><h3>Immunity Booster</h3><span class="dots"></span><span class="price">$250</span></div>
+        <p>High-dose glutathione and vitamin C to fight free radicals. May improve skin appearance and help reduce cold and flu symptoms.</p>
+        <ul><li>1 liter IV fluids</li><li>B-Complex</li><li>High-dose vitamin C</li><li>Max-dose glutathione</li><li>B12 injection</li></ul></div>
+
+      <div class="item"><div class="top"><h3>Migraine Relief</h3><span class="dots"></span><span class="price">$250</span></div>
+        <p>Designed to relieve migraine pain, give you an energy boost, and support your immune system.</p>
+        <ul><li>1 liter IV fluids</li><li>B-Complex</li><li>3x magnesium</li><li>NSAID pain medication</li><li>Antihistamine medication</li></ul></div>
+
+      <div class="item"><div class="top"><h3>Beauty Enhance</h3><span class="dots"></span><span class="price">$250</span></div>
+        <p>Fluids, vitamins, and antioxidants to help strengthen your hair, skin, and nails so you look and feel your best.</p>
+        <ul><li>B-Complex vitamins</li><li>Vitamin B12</li><li>Vitamin C</li><li>Biotin</li><li>Glutathione</li></ul></div>
+
+      <div class="item"><div class="top"><h3>Plain Fluids</h3><span class="dots"></span><span class="price">$150</span></div>
+        <p>A starter package if you feel run-down and dehydrated. Your RN can suggest add-ons for $25 each.</p>
+        <ul><li>1 liter IV fluids</li></ul></div>
+    </div>
+
+    <h2 style="margin-top:48px">Add-ons</h2>
+    <div class="menu small">
+      <div class="item"><div class="top"><h3>Glutathione</h3><span class="dots"></span><span class="price">$30</span></div><p>A powerful antioxidant made from three amino acids.</p></div>
+      <div class="item"><div class="top"><h3>B-Complete</h3><span class="dots"></span><span class="price">$30</span></div><p>B vitamins support many functions throughout the body.</p></div>
+      <div class="item"><div class="top"><h3>Biotin (B7)</h3><span class="dots"></span><span class="price">$30</span></div><p>Important for metabolizing carbohydrates, fats, and amino acids.</p></div>
+      <div class="item"><div class="top"><h3>Vitamin C</h3><span class="dots"></span><span class="price">$30</span></div><p>A water-soluble vitamin found in citrus fruits and green peppers.</p></div>
+      <div class="item"><div class="top"><h3>Zinc</h3><span class="dots"></span><span class="price">$30</span></div><p>An essential trace mineral involved in over 100 enzymes.</p></div>
+    </div>
+
+    <h2 style="margin-top:48px">Injections</h2>
+    <div class="menu small">
+      <div class="item"><div class="top"><h3>Lipo+ (weight loss)</h3><span class="dots"></span><span class="price">$40</span></div><p>Lipotropes may aid the breakdown of body fat when combined with diet and exercise.</p></div>
+      <div class="item"><div class="top"><h3>Vitamin D</h3><span class="dots"></span><span class="price">$40</span></div><p>A fat-soluble vitamin that supports bone and immune health.</p></div>
+      <div class="item"><div class="top"><h3>Vitamin B12</h3><span class="dots"></span><span class="price">$40</span></div><p>Found in fish, meat, and dairy; supports energy and nerve function.</p></div>
+      <div class="item"><div class="top"><h3>Zofran</h3><span class="dots"></span><span class="price">$40</span></div><p>Ondansetron, used to prevent nausea and vomiting.</p></div>
+    </div>
+    <p class="note">We accept cash, debit card, credit card, and HSA.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>Frequently asked questions</h2>
+    <details><summary>Is IV therapy safe?</summary><p>Yes, when given by certified professionals after a health assessment to confirm it suits your health status.</p></details>
+    <details><summary>How long does a session last?</summary><p>Typically 45 to 90 minutes of infusion, depending on your treatment plan and how your body responds. Allow up to 2.5 hours for the full visit.</p></details>
+    <details><summary>Will I have side effects?</summary><p>Most clients have no issues. Minor effects can include bruising at the injection site or a cooling sensation during the infusion.</p></details>
+    <details><summary>How soon will I notice results?</summary><p>Many clients feel better right away, but individual experiences vary.</p></details>
+    <details><summary>How often should I get IV therapy?</summary><p>It depends on your needs and goals. We decide this together during your consultation and follow-up.</p></details>
+    <details><summary>What payment methods do you accept?</summary><p>Cash, debit card, credit card, and HSA.</p></details>
+  </div>
+</section>
+
+<section id="about" class="tint">
+  <div class="wrap about has-photo">
+    <div class="photo"><img src="images/bao-vang.jpg" alt="Bao Vang, RN" onerror="this.parentNode.remove();this.closest('.about').classList.remove('has-photo')"></div>
+    <div>
+      <h2>About Bao Vang, RN</h2>
+      <p>I'm a registered nurse and the owner of Onestop Hydration, a mobile IV therapy service. I speak English, Hmong, Lao, and Thai, and I have more than 5 years of nursing experience across many healthcare settings.</p>
+      <p>I started Onestop Hydration to make safe, personalized IV therapy easy to get. Whether you need to recover after a night out, want a wellness boost, or are getting over an illness, I bring care to you, in your own space.</p>
+      <p>Every treatment is given by a licensed RN using premium-grade ingredients, tailored to your health goals.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Book your visit</h2>
+    <p>Twin Cities premier mobile IV service.<br>
+    Call or text Bao Vang, RN: <a href="tel:+16512367759">651-236-7759</a><br>
+    Email: <a href="mailto:baovang787@gmail.com">baovang787@gmail.com</a></p>
+    <div class="actions">
+      <a class="btn" href="sms:+16512367759">Text to book</a>
+      <a class="btn alt" style="color:#fff;border-color:#fff" href="https://www.facebook.com/profile.php?id=100081119029689">Facebook</a>
+      <a class="btn alt" style="color:#fff;border-color:#fff" href="https://squareup.com/gift/MLMQC2RJH5N5H/order">Gift cards</a>
+    </div>
+    <p class="small">&copy; 2026 Onestop Hydration. Treatments are administered by licensed registered nurses in Minnesota. Results vary. Not a substitute for medical advice.</p>
+  </div>
+</footer>
+
+</body>
+</html>
